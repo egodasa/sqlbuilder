@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SqlHelper", "SqlHelper.vbproj", "{39A1D5C2-7313-4B49-8D39-2414DCE1FED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A1D5C2-7313-4B49-8D39-2414DCE1FED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A1D5C2-7313-4B49-8D39-2414DCE1FED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A1D5C2-7313-4B49-8D39-2414DCE1FED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A1D5C2-7313-4B49-8D39-2414DCE1FED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5D02AEC-87F4-4832-A486-8439BB7D192A}
+	EndGlobalSection
+EndGlobal
