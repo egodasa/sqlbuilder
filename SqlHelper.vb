@@ -1,5 +1,5 @@
-﻿Namespace SqlHelper
-    Public Class SqlView
+﻿
+Public Class SqlView
         Public Name As String
         Public Caption As String
         Public Sub New(ByVal Name As String, ByVal Caption As String)
@@ -109,12 +109,11 @@
             Return Query.Delete(Me.table, Me.primary_key, val_where)
         End Function
     End Class
-    Public Class SqlMessages
-        Public code As Integer
-        Public message As String
-        Public Sub New(ByVal kode As Integer, ByVal pesan As String)
-            code = kode
-            message = pesan
-        End Sub
-    End Class
-End Namespace
+Public Class SqlMessages
+    Public code As Integer
+    Public message As String
+    Public Sub New(ByVal kode As Integer, ByVal pesan As String)
+        code = kode
+        message = pesan
+    End Sub
+End Class
